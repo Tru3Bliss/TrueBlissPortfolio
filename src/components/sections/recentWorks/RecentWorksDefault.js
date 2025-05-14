@@ -61,21 +61,12 @@ const RecentWorksDefault = () => {
               </label>
             </div>
             <div
-              className={`f_btn ${activeBtn("market")}`}
-              onClick={handleFilterKeyChange("market")}
+              className={`f_btn ${activeBtn("DApp")}`}
+              onClick={handleFilterKeyChange("DApp")}
             >
               <label>
-                <input type="radio" name="fl_radio" defaultValue="market" />
-                Market
-              </label>
-            </div>
-            <div
-              className={`f_btn ${activeBtn("socialfi")}`}
-              onClick={handleFilterKeyChange("socialfi")}
-            >
-              <label>
-                <input type="radio" name="fl_radio" defaultValue="socialfi" />
-                SocialFi
+                <input type="radio" name="fl_radio" defaultValue="DApp" />
+                DApp
               </label>
             </div>
             <div
@@ -164,15 +155,16 @@ const RecentWorksDefault = () => {
 export default RecentWorksDefault;
 
 const projectData = [
+ 
   {
-    type: "market",
+    type: "DApp",
     imgUrl: "images/works/work18.png",
     content:
       "Prediction Market with NFT Reward",
     siteUrl: "https://www.solbookie.com/",
   },
   {
-    type: "socialfi",
+    type: "DApp",
     imgUrl: "images/works/work17.png",
     content:
       "Web 3 Blogging platform on Solana like Mirror.xyz.",
@@ -209,6 +201,18 @@ const projectData = [
     imgUrl: "images/works/work11.jpg",
     content: "Crypto Legions Game",
     siteUrl: "https://cryptolegions.app/",
+  },
+  {
+    type: "game",
+    imgUrl: "images/works/work22.png",
+    content: "Wheel game on Solana",
+    siteUrl: "https://wheel.mctoken.xyz/",
+  },
+  {
+    type: "game",
+    imgUrl: "images/works/work23.png",
+    content: "Jackpot on Solana",
+    siteUrl: "https://slowrug.io/",
   },
   {
     type: "nft",
@@ -263,5 +267,26 @@ const projectData = [
     imgUrl: "images/works/work15.jpg",
     content: "Littlespoon E-Commerce",
     siteUrl: "https://dibruno.com/",
+  },
+  {
+    type: "DApp",
+   imgUrl: "images/works/work21.png",
+   content:
+     "Pump.fun forking & customize",
+   siteUrl: "https://app.ape.lol/",
+  },
+  {
+    type: "DApp",
+   imgUrl: "images/works/work19.png",
+   content:
+     "AI Agent with Monsters",
+   siteUrl: "https://www.monsters.fun/",
+ },
+ {
+  type: "DApp",
+  imgUrl: "images/works/work20.png",
+  content:
+   "Prediction Market(CPMM)",
+  siteUrl: "https://www.factcheck.fun/",
   },
 ];

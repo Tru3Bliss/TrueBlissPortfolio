@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 const bio_ = `<p>
-<strong>Hello! I’m Ture Bliss.</strong>
+<strong>Hello! I’m True Bliss.</strong>
 Full stack, Blockchain Engineer. Rich experience in web3 project and building and customization, also I am good at Solidity & Rust. I love to talk with you about your vision and idea.
 </p>`;
 const AboutMe = ({ bio }) => {

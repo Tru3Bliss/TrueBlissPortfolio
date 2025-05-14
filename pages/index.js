@@ -56,7 +56,7 @@ const IndexDark = () => {
             className="slide"
             style={{ backgroundImage: "url(images/logo.png)",  }}
           />
-          <div className="title">Ture Bliss</div>
+          <div className="title">True Bliss</div>
           <TypingAnimation />
           <div className="social">
             <a
